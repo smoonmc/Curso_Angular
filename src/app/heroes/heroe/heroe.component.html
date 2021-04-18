@@ -1,0 +1,26 @@
+<h1> Modulo de Heroe Component Woks</h1> 
+
+<h1>{{nombre}}</h1>
+
+<dl>
+
+    <td> Nombre: </td>
+    <dd> {{nombre}} </dd>
+
+    <td> Edad: </td>
+    <dd> {{edad}} </dd>
+
+
+    <td> Función: </td>
+    <dd> {{obtenerNombre()}} </dd>
+
+
+<!-- como es un get en el component, solo se llama por el nombre sin los ()-->
+    <td> Capitalizado: </td>
+    <dd> {{nombreCapitalizado}} </dd>
+
+</dl>
+
+<button (click)="cambiarNombre()">  Cambiar Heroé</button>
+
+<button (click)="cambiarEdad()"> Cambiar Edad</button>
