@@ -1,0 +1,17 @@
+<h1> Dragon Ball Z </h1>  
+<hr>
+
+<div class="row">
+
+    <div class="col">
+       <app-personajes></app-personajes>
+       <!-- personajesData es del componente hijo en el archivo personajes.component.ts
+            El componente Padre es el main-page.component.ts-->
+       
+    </div>
+    <div class="col">
+      <app-agregar [nuevo]="nuevo"> </app-agregar>
+
+    </div>
+
+</div>
